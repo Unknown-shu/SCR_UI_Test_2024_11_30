@@ -15,7 +15,6 @@ extern "C" {
 
 void astraCoreInit(void);
 void astraCoreStart(void);
-void astraCoreTest(void);
 void astraCoreDestroy(void);
 
 /*---- C ----*/
@@ -27,8 +26,6 @@ void astraCoreDestroy(void);
 #include "../astra/ui/launcher.h"
 #include "../hal/hal_dreamCore/hal_dreamCore.h"
 
-extern astra::Launcher* astraLauncher;
-extern astra::Menu* rootPage;
 /*---- Cpp ----*/
 
 #endif
